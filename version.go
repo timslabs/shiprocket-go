@@ -4,4 +4,4 @@ package shiprocket
 const SDKName = "shiprocket-go"
 
 // SDKVersion is the current package version.
-const SDKVersion = "1.0.0"
+const SDKVersion = "1.0.1"

@@ -1,11 +1,39 @@
-# Warehouse
+## Warehouse
 
-Uses `/v1/warehouse` (not `/v1/external`).
+Warehouse endpoints use `/v1/warehouse` (not `/v1/external`).
+
+### SRF serviceability
 
 ```go
-client := shiprocket.NewClient(email, password)
-
-data, err := client.Warehouse.SrfServiceability(map[string]interface{}{
-	// query params per Shiprocket docs
-}, nil)
+query := map[string]interface{}{
+  "postcode": "110030",
+  "sku":      "Baby-socks",
+  "quantity": 1,
+}
+body, err := client.Warehouse.SrfServiceability(query, nil)
 ```
+
+**Parameters:**
+
+| Name       | Type    | Description              |
+|------------|---------|--------------------------|
+| postcode\* | string  | Delivery pincode         |
+| sku\*      | string  | SKU                      |
+| quantity\* | integer | Units requested          |
+
+**Response:**
+
+```json
+{
+  "status": 200,
+  "data": {
+    "serviceable": true
+  }
+}
+```
+
+-------------------------------------------------------------------------------------------------------
+
+**PN: \* indicates mandatory fields**
+
+**For reference click [here](https://apidocs.shiprocket.in/)**

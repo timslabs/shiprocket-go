@@ -22,7 +22,7 @@ func newTestRequest(t *testing.T, handler http.HandlerFunc) *Request {
 		Auth:       Auth{Token: "test-token"},
 		HTTPClient: srv.Client(),
 		Headers:    make(map[string]string),
-		Version:    "1.0.0",
+		Version:    "1.0.1",
 		SDKName:    "shiprocket-go",
 		BaseURL:    srv.URL,
 	}
@@ -97,18 +97,18 @@ func TestGetUserAgentHeaderValue(t *testing.T) {
 			name: "default",
 			request: Request{
 				SDKName: "shiprocket-go",
-				Version: "1.0.0",
+				Version: "1.0.1",
 			},
-			expected: "shiprocket-go/1.0.0",
+			expected: "shiprocket-go/1.0.1",
 		},
 		{
 			name: "custom",
 			request: Request{
 				SDKName:   "shiprocket-go",
-				Version:   "1.0.0",
+				Version:   "1.0.1",
 				userAgent: "MyApp/2.0",
 			},
-			expected: "MyApp/2.0 (shiprocket-go/1.0.0)",
+			expected: "MyApp/2.0 (shiprocket-go/1.0.1)",
 		},
 	}
 
