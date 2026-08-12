@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "type": "debit",
+      "amount": 45.5,
+      "created_at": "2026-01-15 10:00:00"
+    }
+  ]
+}

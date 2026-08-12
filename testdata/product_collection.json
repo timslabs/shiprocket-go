@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": 55,
+      "name": "Widget",
+      "sku": "W-1",
+      "quantity": 10
+    }
+  ]
+}

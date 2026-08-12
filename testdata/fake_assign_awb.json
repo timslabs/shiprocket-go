@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "message": "AWB assigned successfully",
+  "response": {
+    "data": {
+      "awb_code": "AWB123456",
+      "courier_name": "Demo Courier"
+    }
+  }
+}

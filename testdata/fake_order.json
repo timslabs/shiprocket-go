@@ -1,0 +1,7 @@
+{
+  "order_id": 1001,
+  "channel_order_id": "ORD-1001",
+  "shipment_id": 2001,
+  "status": "NEW",
+  "status_code": 1
+}

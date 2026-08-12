@@ -1,0 +1,7 @@
+{
+  "token": "fake_jwt_token",
+  "email": "api@example.com",
+  "company_id": 12345,
+  "first_name": "API",
+  "last_name": "User"
+}

@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 2001,
+      "awb": "AWB123456",
+      "status": "PICKED UP"
+    },
+    {
+      "id": 2002,
+      "awb": "AWB654321",
+      "status": "DELIVERED"
+    }
+  ]
+}

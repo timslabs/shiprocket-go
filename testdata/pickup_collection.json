@@ -1,0 +1,14 @@
+{
+  "data": {
+    "shipping_address": [
+      {
+        "id": 1,
+        "pickup_location": "Primary",
+        "name": "Jane Doe",
+        "phone": "9999999999",
+        "city": "Mumbai",
+        "pin_code": "400001"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": 200,
+  "data": {
+    "available_courier_companies": [
+      {
+        "courier_company_id": 1,
+        "courier_name": "Demo Courier",
+        "rate": 45.5,
+        "etd": "2 days",
+        "cod": 0
+      },
+      {
+        "courier_company_id": 2,
+        "courier_name": "Surface Express",
+        "rate": 52.0,
+        "etd": "3 days",
+        "cod": 1
+      }
+    ]
+  }
+}

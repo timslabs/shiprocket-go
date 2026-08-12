@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "data": {
+    "available_courier_companies": [
+      {
+        "courier_name": "Intl Express",
+        "rate": 1200
+      }
+    ]
+  }
+}

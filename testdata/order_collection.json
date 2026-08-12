@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "id": 1001,
+      "channel_order_id": "ORD-1001",
+      "status": "NEW"
+    },
+    {
+      "id": 1002,
+      "channel_order_id": "ORD-1002",
+      "status": "PICKED UP"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 2,
+      "count": 2,
+      "per_page": 15,
+      "current_page": 1,
+      "total_pages": 1
+    }
+  }
+}
